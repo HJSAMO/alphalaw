@@ -1,0 +1,84 @@
+2018-02-12 16:34:14,310 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:34:14,310 - INFO - template folder : ../templates
+2018-02-12 16:34:50,147 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:34:50,147 - INFO - template folder : ../templates
+2018-02-12 16:35:08,513 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:35:08,513 - INFO - template folder : ../templates
+2018-02-12 16:35:09,556 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:35:09,556 - INFO - template folder : ../templates
+2018-02-12 16:35:19,061 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:38:39,427 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:38:39,428 - INFO - template folder : ../templates
+2018-02-12 16:38:40,385 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:38:40,385 - INFO - template folder : ../templates
+2018-02-12 16:39:20,466 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:39:29,776 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:39:47,257 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:39:47,257 - INFO - template folder : ../templates
+2018-02-12 16:39:48,212 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:39:48,212 - INFO - template folder : ../templates
+2018-02-12 16:39:56,935 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:40:53,863 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:52:55,644 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:52:55,645 - INFO - template folder : ../templates
+2018-02-12 16:52:56,714 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:52:56,714 - INFO - template folder : ../templates
+2018-02-12 16:53:03,209 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 16:59:37,133 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:59:37,134 - INFO - template folder : ../templates
+2018-02-12 16:59:38,077 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 16:59:38,078 - INFO - template folder : ../templates
+2018-02-12 16:59:48,177 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:10:43,142 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:10:43,142 - INFO - template folder : ../templates
+2018-02-12 17:10:44,108 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:10:44,108 - INFO - template folder : ../templates
+2018-02-12 17:10:53,901 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:11:02,192 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-12 17:11:10,814 - DEBUG - None
+2018-02-12 17:11:16,593 - INFO - (GET)next_url is http://127.0.0.1:5000/contract/
+2018-02-12 17:11:19,814 - INFO - (POST)next_url is http://127.0.0.1:5000/contract/
+2018-02-12 17:11:25,838 - DEBUG - None
+2018-02-12 17:11:32,422 - DEBUG - <User 'asdf' 'admin@samsung.com'>
+2018-02-12 17:11:32,479 - INFO - (GET)next_url is 
+2018-02-12 17:11:39,776 - INFO - (POST)next_url is 
+2018-02-12 17:11:44,215 - ERROR - Alphalaw error occurs : 'alphalaw.controller.contract_upload.ContractUploadForm object' has no attribute 'tag'
+2018-02-12 17:13:14,342 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:13:14,342 - INFO - template folder : ../templates
+2018-02-12 17:13:15,302 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:13:15,302 - INFO - template folder : ../templates
+2018-02-12 17:13:20,382 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:13:24,177 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-12 17:13:35,524 - ERROR - Alphalaw error occurs : Could not build url for endpoint 'alphalaw.update_contract_form' with values ['alphalaw_id']. Did you forget to specify values ['contract_id']?
+2018-02-12 17:14:35,611 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:14:35,611 - INFO - template folder : ../templates
+2018-02-12 17:14:36,557 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:14:36,558 - INFO - template folder : ../templates
+2018-02-12 17:14:41,806 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:14:45,161 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-12 17:15:04,984 - DEBUG - <User 'asdf' 'admin@samsung.com'>
+2018-02-12 17:15:10,483 - DEBUG - <User 'asdf' 'admin@samsung.com'>
+2018-02-12 17:15:19,993 - DEBUG - <User 'asdf' 'admin@samsung.com'>
+2018-02-12 17:15:20,115 - INFO - (GET)next_url is 
+2018-02-12 17:15:22,792 - INFO - (POST)next_url is 
+2018-02-12 17:15:27,725 - ERROR - Alphalaw error occurs : type object 'Contract' has no attribute 'comment'
+2018-02-12 17:16:08,724 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:16:08,725 - INFO - template folder : ../templates
+2018-02-12 17:17:58,632 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:17:58,632 - INFO - template folder : ../templates
+2018-02-12 17:21:44,762 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:21:44,762 - INFO - template folder : ../templates
+2018-02-12 17:21:45,726 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:21:45,726 - INFO - template folder : ../templates
+2018-02-12 17:21:52,548 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:21:55,497 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-12 17:22:26,721 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:22:26,721 - INFO - template folder : ../templates
+2018-02-12 17:24:00,129 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:24:00,129 - INFO - template folder : ../templates
+2018-02-12 17:24:01,106 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-12 17:24:01,106 - INFO - template folder : ../templates
+2018-02-12 17:24:12,148 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-12 17:24:14,906 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-12 17:24:39,725 - ERROR - File upload error : illegal file.
+2018-02-12 17:24:39,726 - ERROR - Alphalaw error occurs : File upload error : illegal file.

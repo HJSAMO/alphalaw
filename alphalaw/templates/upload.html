@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block title %}Upload{% endblock %}
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+<!-- File Upload Form -->
+{% block content %}
+
+    <div class="container col-md-12">
+		
+        <div class="row"> <!-- Begin contract data input -->
+            <div class="well well-sm col-md-4" style="height: 420px; margin-left: -5px; margin-right: 5px"> <!-- first column begin -->
+                {% from "_formhelpers.html" import render_field %}
+                <form id="upload" name="upload" class="form-horizontal col-md-12" method="POST" action="{% if contract %}{{ url_for('alphalaw.update_contract', contract_id=contract.id) }}{% else %}{{ url_for('alphalaw.upload_contract') }}{% endif %}" enctype="multipart/form-data" >
+                    <div class="fileinput fileinput-new" data-provides="fileinput">
+                        {% if contract %}
+
+                        {% else %}
+                            <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"> </div>
+                            <div>
+                                <span class="btn btn-file btn-info">
+                                    <span class="fileinput-new"> <i class="fa fa-picture-o"></i> 찾기</span>
+                                    <span class="fileinput-exists"> <i class="fa fa-pencil"></i> 변경</span>
+                                     {{ render_field(form.contract) }}
+                                      <!--  <input id="contract" name="contract" type="file" /> -->
+                                </span>
+                                <a href="#" class="btn fileinput-exists" data-dismiss="fileinput"> <i class="fa fa-remove"></i> 지우기</a>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                </form>        
+            </div> <!-- end of first column -->
+
+        </div> <!-- end of first row -->
+
+            
+        <div class="row"> <!-- Begin Save button row -->
+            <div class="col-md-4" style="margin-top: -10px;">
+               <button class="btn btn-block btn-primary col-md-12" onclick="javacscript:$('#upload').submit();"><i class="fa fa-save"></i> 저장하기</button>
+            </div>
+        </div>
+
+        </div>
+	</div> <!-- End of Container -->
+
+	<script type="text/javascript">
+
+	// '저장하기' 버튼이 눌러 졌을때
+        $('#upload').submit(function(e){
+           
+            {% if contract %} 
+            {% else %}
+                if($('input[type=file]').val() == "") {
+                    bootbox.alert("파일을 선택해주세요");
+                    return false;
+                }
+            {% endif %}
+       });
+      
+	</script>
+{% endblock %}
