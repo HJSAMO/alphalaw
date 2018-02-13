@@ -23,6 +23,12 @@ from alphalaw.controller.login import login_required
 from alphalaw.alphalaw_logger import Log
 from alphalaw.alphalaw_blueprint import alphalaw
 
+import requests
+import json
+import tika
+tika.TikaClientOnly = True
+from tika import parser
+
 
 ALLOWED_EXTENSIONS = set(['pdf', 'doc', 'docx'])
 
@@ -93,6 +99,24 @@ def upload_contract():
     
         except Exception as e:
             Log.error(str(e))
+            raise e
+        
+        try :
+            tika_url = 'http://192.168.0.199:9998/tika'
+            es_url = 'http://192.168.0.200:9201/test_idx/fulltext/' + filename
+            es_request_header = {'Content-Type': 'application/json; charset=utf-8'}
+            
+            tika_parsed = parser.from_file(os.path.join(upload_folder, filename), tika_url)
+            es_data = {
+                'title': filename,
+                'text': tika_parsed['content']
+                }
+            
+            r = requests.post(url=es_url, data=json.dumps(es_data), headers=es_request_header)
+            Log.debug(r)
+            
+        except Exception as e:
+            Log.error(e)
             raise e
     
         try :
