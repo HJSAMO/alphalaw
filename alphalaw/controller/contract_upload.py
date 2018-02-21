@@ -25,8 +25,8 @@ from alphalaw.alphalaw_blueprint import alphalaw
 
 import requests
 import json
-import tika
-tika.TikaClientOnly = True
+# import tika
+# tika.TikaClientOnly = True
 # from tika import parser
 
 
@@ -107,12 +107,20 @@ def upload_contract():
             
             #tika_parsed = parser.from_file(os.path.join(upload_folder, filename), tika_url)
             tika_parsed = requests.get(url=tika_url)
+            tika_content = tika_parsed.content.decode("utf-8")
             es_data = {
                 'title': filename,
-                'text': tika_parsed['content']
+                'text': tika_content
                 }
-            
             r = requests.post(url=es_url, data=json.dumps(es_data), headers=es_request_header)
+#             tika_parsed = requests.get(url=tika_url)
+#             tika_content = tika_parsed.content.decode("utf-8")
+#             es_data = {
+#                 'title': filename,
+#                 'text': tika_content
+#                 }
+#             es_content = json.dumps(es_data).encode('utf_8')
+#             r = requests.post(url=es_url, data=es_data, headers=es_request_header)
             Log.debug(r)
             
         except Exception as e:
