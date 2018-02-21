@@ -27,7 +27,7 @@ import requests
 import json
 import tika
 tika.TikaClientOnly = True
-from tika import parser
+# from tika import parser
 
 
 ALLOWED_EXTENSIONS = set(['pdf', 'doc', 'docx'])
@@ -88,11 +88,10 @@ def upload_contract():
                                     "." + 
                                     ext)
                 
-                upload_contract.save(os.path.join(upload_folder, 
-                                               filename))
+                abs_filename = os.path.join(upload_folder, filename)
+                upload_contract.save(abs_filename)
                 
-                filesize = \
-                    os.stat(upload_folder + filename).st_size
+                filesize = os.stat(upload_folder + filename).st_size
                 
             else:
                 raise Exception("File upload error : illegal file.")
@@ -102,11 +101,12 @@ def upload_contract():
             raise e
         
         try :
-            tika_url = 'http://192.168.0.199:9998/tika'
+            tika_url = 'http://192.168.0.199:8080/tika/scanpdf?file=' + abs_filename
             es_url = 'http://192.168.0.200:9201/test_idx/fulltext/' + filename
             es_request_header = {'Content-Type': 'application/json; charset=utf-8'}
             
-            tika_parsed = parser.from_file(os.path.join(upload_folder, filename), tika_url)
+            #tika_parsed = parser.from_file(os.path.join(upload_folder, filename), tika_url)
+            tika_parsed = requests.get(url=tika_url)
             es_data = {
                 'title': filename,
                 'text': tika_parsed['content']
