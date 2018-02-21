@@ -112,15 +112,9 @@ def upload_contract():
                 'title': filename,
                 'text': tika_content
                 }
-            r = requests.post(url=es_url, data=json.dumps(es_data), headers=es_request_header)
-#             tika_parsed = requests.get(url=tika_url)
-#             tika_content = tika_parsed.content.decode("utf-8")
-#             es_data = {
-#                 'title': filename,
-#                 'text': tika_content
-#                 }
-#             es_content = json.dumps(es_data).encode('utf_8')
-#             r = requests.post(url=es_url, data=es_data, headers=es_request_header)
+#             r = requests.post(url=es_url, data=json.dumps(es_data), headers=es_request_header) # only english
+            es_content = json.dumps(es_data, ensure_ascii=False).encode('utf-8')
+            r = requests.post(url=es_url, data=es_content, headers=es_request_header)
             Log.debug(r)
             
         except Exception as e:
