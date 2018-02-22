@@ -101,7 +101,7 @@ def upload_contract():
             raise e
         
         try :
-            tika_url = 'http://192.168.0.199:8080/tika/scanpdf?file=' + abs_filename
+            tika_url = 'http://192.168.0.200:8080/tika/scanpdf?file=' + abs_filename
             es_url = 'http://192.168.0.200:9201/test_idx/fulltext/' + filename
             es_request_header = {'Content-Type': 'application/json; charset=utf-8'}
             
