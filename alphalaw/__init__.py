@@ -66,6 +66,7 @@ def create_app(config_filepath='resource/config.cfg'):
     from alphalaw.controller import contract_show
     from alphalaw.controller import contract_upload
     from alphalaw.controller import register_user
+    from alphalaw.controller import contract_viewer
     
     from alphalaw.alphalaw_blueprint import alphalaw
     alphalaw_app.register_blueprint(alphalaw)

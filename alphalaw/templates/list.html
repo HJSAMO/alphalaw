@@ -21,7 +21,7 @@
                     {% for contract in contracts %}
                     <tr>
                         <td>{{ loop.index }}</td>
-                        <td>{{ contract.filename_orig }}</td>
+                        <td><a href="{{ url_for('alphalaw.contract_viewer', contract_id=contract.id)}}">{{ contract.filename_orig }}</a></td>
                         <td><span class="badge badge-success">{{ sizeof_fmt(contract.filesize) }}</span></td>
                         <td>{{ contract.upload_date.strftime('%Y-%m-%d %H:%M') }}</td>
                         <td>
