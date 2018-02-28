@@ -62,7 +62,9 @@ def __get_download_info(contract_id, prefix_filename=''):
 def download_contract(contract_id):
     return __get_download_info(contract_id)
 
-
+@alphalaw.route('/contract/vue_test')
+def vue_test():
+    return render_template('vue_test.html')
 
 @alphalaw.route('/contract/', defaults={'page': 1})
 @alphalaw.route('/contract/page/<int:page>')

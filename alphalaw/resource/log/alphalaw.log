@@ -82,3 +82,86 @@
 2018-02-12 17:24:14,906 - INFO - (POST)next_url is http://127.0.0.1:5000/
 2018-02-12 17:24:39,725 - ERROR - File upload error : illegal file.
 2018-02-12 17:24:39,726 - ERROR - Alphalaw error occurs : File upload error : illegal file.
+2018-02-26 14:17:06,500 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:17:06,500 - INFO - template folder : ../templates
+2018-02-26 14:17:07,753 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:17:07,754 - INFO - template folder : ../templates
+2018-02-26 14:17:11,244 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:17:21,663 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:17:26,852 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:17:30,300 - DEBUG - None
+2018-02-26 14:17:36,229 - DEBUG - <User '1234' 'admin@samsung.com'>
+2018-02-26 14:17:36,237 - INFO - (GET)next_url is 
+2018-02-26 14:17:39,886 - INFO - (POST)next_url is 
+2018-02-26 14:25:55,584 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:25:55,584 - INFO - template folder : ../templates
+2018-02-26 14:25:56,625 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:25:56,626 - INFO - template folder : ../templates
+2018-02-26 14:26:09,821 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:26:12,633 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:49:13,016 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:49:13,016 - INFO - template folder : ../templates
+2018-02-26 14:49:14,027 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:49:14,027 - INFO - template folder : ../templates
+2018-02-26 14:49:19,733 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:49:22,217 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:50:46,103 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:50:46,103 - INFO - template folder : ../templates
+2018-02-26 14:50:47,128 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:50:47,129 - INFO - template folder : ../templates
+2018-02-26 14:50:50,989 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:50:53,475 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:55:40,287 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:55:40,287 - INFO - template folder : ../templates
+2018-02-26 14:55:41,386 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:55:41,386 - INFO - template folder : ../templates
+2018-02-26 14:55:46,495 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:55:48,895 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:57:27,671 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:57:27,671 - INFO - template folder : ../templates
+2018-02-26 14:57:28,708 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:57:28,709 - INFO - template folder : ../templates
+2018-02-26 14:57:34,158 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:57:36,771 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 14:59:24,885 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:59:24,885 - INFO - template folder : ../templates
+2018-02-26 14:59:25,895 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 14:59:25,895 - INFO - template folder : ../templates
+2018-02-26 14:59:29,240 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 14:59:31,425 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 15:13:47,053 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:13:47,054 - INFO - template folder : ../templates
+2018-02-26 15:13:48,054 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:13:48,054 - INFO - template folder : ../templates
+2018-02-26 15:14:04,257 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 15:14:06,812 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 15:14:49,637 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:14:49,637 - INFO - template folder : ../templates
+2018-02-26 15:14:50,626 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:14:50,626 - INFO - template folder : ../templates
+2018-02-26 15:14:55,624 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 15:14:58,412 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-26 15:16:34,485 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:16:34,486 - INFO - template folder : ../templates
+2018-02-26 15:16:35,572 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-26 15:16:35,572 - INFO - template folder : ../templates
+2018-02-26 15:16:38,254 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-26 15:16:40,426 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-28 14:25:01,319 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-28 14:25:01,319 - INFO - template folder : ../templates
+2018-02-28 14:25:02,810 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-28 14:25:02,811 - INFO - template folder : ../templates
+2018-02-28 14:25:18,179 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:25:29,517 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:25:35,747 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:25:40,076 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-28 14:25:52,464 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:26:08,956 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:26:18,783 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:26:25,797 - INFO - (POST)next_url is http://127.0.0.1:5000/
+2018-02-28 14:28:35,112 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-28 14:28:35,113 - INFO - template folder : ../templates
+2018-02-28 14:28:36,420 - INFO - static folder : C:\Users\SDS\git\alphalaw\alphalaw\../static
+2018-02-28 14:28:36,421 - INFO - template folder : ../templates
+2018-02-28 14:28:42,417 - INFO - (GET)next_url is http://127.0.0.1:5000/
+2018-02-28 14:28:46,104 - INFO - (POST)next_url is http://127.0.0.1:5000/

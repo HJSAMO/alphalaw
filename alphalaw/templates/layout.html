@@ -28,6 +28,7 @@
         <script type="text/javascript" src="{{ url_for('static',filename='js/bootbox.min.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static',filename='js/jasny-fileinput.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static',filename='js/binaryajax.js') }}"></script>
+    	<script type="text/javascript" src="{{ url_for('static',filename='js/vue.min.js') }}"></script>
         {% block head %}{% endblock %}
     </head>
     <body width="100%">
@@ -46,6 +47,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a  href="{{ url_for('alphalaw.show_all') }}" ><i class="fa fa-th-list fa-large"></i> 목록 보기 </a></li>
                         <li class="active"><a  href="{{ url_for('alphalaw.upload_contract_form') }}" ><i class="fa fa-camera-retro fa-large"> 계약서 올리기 </i></a></li>
+                        <li class="active"><a  href="{{ url_for('alphalaw.vue_test') }}" >vue test</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right ">
                         <li><a href="{% if session.__contains__('user_info') %}{{ url_for('alphalaw.update_user_form', username=session.user_info.username) }}{% endif %}"><i class="fa fa-pencil"></i> 개인정보 수정</a></li>

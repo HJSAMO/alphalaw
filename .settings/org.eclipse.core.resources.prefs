@@ -7,6 +7,7 @@ encoding//alphalaw/cache_session.py=utf-8
 encoding//alphalaw/controller/__init__.py=utf-8
 encoding//alphalaw/controller/contract_show.py=utf-8
 encoding//alphalaw/controller/contract_upload.py=utf-8
+encoding//alphalaw/controller/contract_viewer.py=utf-8
 encoding//alphalaw/controller/login.py=utf-8
 encoding//alphalaw/controller/register_user.py=utf-8
 encoding//alphalaw/database.py=utf-8
